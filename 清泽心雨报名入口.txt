@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清泽心雨-报名入口</title>
+    <style type="text/css">
+        div{border: #1010cc 3px dashed}
+        p{border: #0dcc20  1px dashed}
+        span{font-size: 16px;color: #87e1e1; font-family: 楷体;}
+        }
+    </style>
+</head>
+<body> <span> <div>
+<h1>清泽心雨-报名入口</h1>
+<ul>
+   <p><li><h2>基本信息</h2></li>
+    <h3>请认真输入，不然我们就找不到你了哦！</h3>
+    <form method="post" action="save.php">
+        <label for="name">姓名：</label>
+        <input type="text" name="myName"/> &nbsp;&nbsp;&nbsp;
+        <label>性别:</label>&nbsp; &nbsp;&nbsp;
+        <label>男</label>
+        <input type="radio" name="radiolove" value="男"/>
+        <label>女</label>
+        <input type="radio" name="radiolove" value="女"/>
+        <br />
+        <label for="telephon number">电话：</label>
+        <input type="number"  name="telephone number"/> &nbsp;&nbsp;&nbsp;
+        <label for="e-mail">邮箱：</label>
+        <input type="email"name="e-mail"/> <br />
+    </p>
+        <p><li> <h2>学籍信息</h2></li>
+        <h3>这些内容很关键</h3>
+        <label>校区</label>
+        <select>
+            <option value="明向">明向</option>
+            <option value="迎西">迎西</option>
+            <option value="虎峪">虎峪</option>
+        </select> <br />
+        <label for="name">学院：</label>
+        <input type="text" name="school"/> &nbsp;&nbsp;&nbsp;
+        <label for="name">专业：</label>
+        <input style="text" name="zhuanye"/><br /> <b />
+        <label for="name">班级：</label>
+        <input type="text" name="banji"/> &nbsp;&nbsp;&nbsp;
+        <label for="number">学号：</label>
+        <input type="number" name="xuehao"/><br />
+
+        <li><h2>报名志向</h2></li>
+        <h3>在这里选择你想要报的部门</h3>
+        <label>第一志愿</label>
+        <select>
+            <option value="蓝之青【网络安全】">蓝之青【网络安全】</option>
+            <option value="UED【体验设计】">UED【体验设计】</option>
+            <option value="公关策划部">公关策划部</option>
+            <option value="综合媒体">综合媒体</option>
+            <option value="清泽微视">清泽微视</option>
+            <option value="新闻中心">新闻中心</option>
+            <option value="卡乐坊">卡乐坊</option>
+            <option value="运营部（办公室）">运营部（办公室）</option>
+        </select>  &nbsp; &nbsp;&nbsp;
+        <label>第二志愿（可选）</label>
+        <select>
+            <option value="蓝之青【网络安全】">蓝之青【网络安全】</option>
+            <option value="UED【体验设计】">UED【体验设计】</option>
+            <option value="公关策划部">公关策划部</option>
+            <option value="综合媒体">综合媒体</option>
+            <option value="清泽微视">清泽微视</option>
+            <option value="新闻中心">新闻中心</option>
+            <option value="卡乐坊">卡乐坊</option>
+            <option value="运营部（办公室）">运营部（办公室）</option>
+        </select> <br />
+        <p id="anniu"> <input type="submit" value="提交" name="submitBnt"/></p> </span></p>
+    </form>
+</body></div>
+</html>
